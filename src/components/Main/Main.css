@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Inter&display=swap");
+main {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+main .block1 {
+  padding: 135px 320px 75px 320px;
+}
+main .block1 .title {
+  color: #1b3764;
+  font-size: 30px;
+  font-weight: 700;
+}
+main .block1 .text {
+  margin-top: 13px;
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: #969aa0;
+}
+main .block1 .text strong {
+  color: #1b3764;
+}
+main .block2 {
+  padding: 135px 320px 75px 320px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #969aa0;
+  font-family: "Inter", sans-serif;
+}
+main .block2 .title {
+  color: #1b3764;
+}
+main .block2 .fonts .text strong {
+  color: #1b3764;
+}/*# sourceMappingURL=Main.css.map */

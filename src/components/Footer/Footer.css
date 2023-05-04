@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Inter&display=swap");
+.footerMain {
+  margin-top: 130px;
+  background: #1b3764;
+}
+.footerMain .footer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 250px;
+  padding-top: 84px;
+  padding-right: 250px;
+  color: #fff;
+  font-family: "Inter";
+  padding-bottom: 100px;
+}
+.footerMain .footer .logo {
+  height: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  padding-bottom: 30px;
+}
+.footerMain .footer .logo span {
+  padding-left: 12px;
+}
+.footerMain .footer .social-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footerMain .footer .social-icons .icon {
+  border: 1px solid #fff;
+  padding: 5px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerMain .footer .block2 .title,
+.footerMain .footer .block3 .title {
+  font-family: "Cardo";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.footerMain .footer .block2 .block,
+.footerMain .footer .block3 .block {
+  color: #b4c7e7;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px auto;
+}
+.footerMain .footer .block2 .block img,
+.footerMain .footer .block3 .block img {
+  margin-right: 5px;
+}
+.footerMain .footer .block4 .title {
+  font-family: "Cardo";
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.footerMain .footer .block4 .block {
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+.footerMain .footer .block4 .block p {
+  font-family: "Cardo";
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.footerMain .footer .block4 .block span {
+  color: #b4c7e7;
+  font-size: 18px;
+  font-family: "Inter";
+}
+.footerMain hr {
+  max-width: 80%;
+  margin: auto 10%;
+}
+.footerMain .copy {
+  text-align: center;
+  color: #b4c7e7;
+  font-size: 17px;
+  margin-top: 18px;
+  padding-bottom: 23px;
+}
+.footerMain .copy strong {
+  color: #fff;
+}/*# sourceMappingURL=Footer.css.map */
